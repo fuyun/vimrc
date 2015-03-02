@@ -48,7 +48,7 @@ set history=700
 
 " Enable filetype plugins
 filetype plugin on
-filetype indent on
+filetype indent off
 
 " Set to auto read when a file is changed from the outside
 set autoread
@@ -194,8 +194,8 @@ set tabstop=4
 set lbr
 set tw=500
 
-set ai "Auto indent
-set si "Smart indent
+"set ai "Auto indent
+"set si "Smart indent
 set wrap "Wrap lines
 
 
