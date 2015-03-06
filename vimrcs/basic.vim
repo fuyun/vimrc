@@ -429,3 +429,10 @@ function! <SID>BufcloseCloseIt()
      execute("bdelete! ".l:currentBufNum)
    endif
 endfunction
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => Yun's change
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+
+" disable autocomment
+autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o
